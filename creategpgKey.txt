@@ -60,3 +60,4 @@ gpgsecret karuna20ind
 gpg --armor --export karunakant
 
 prints the gpgkey
+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
