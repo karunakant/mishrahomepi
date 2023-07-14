@@ -14,7 +14,8 @@ services:
     - "80:80"
     - "4443:4443"
     volumes:
-      - /srv/usb8tbmnt/nextcloud/data:/var/www/html
+      - /srv/usb8tbmnt/nextcloud/data/data:/var/www/html/data
+      - /srv/usb8tbmnt/nextcloud/data/config:/var/www/html/config
     environment:
       - MYSQL_PASSWORD=root
       - MYSQL_DATABASE=nextcloud
